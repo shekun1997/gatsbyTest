@@ -29,14 +29,15 @@ const Layout = ({ children }) => {
       <div
         style={{
           margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`,
+          padding: `80px 1.0875rem 1.45rem`,
+          background: `grey`,
         }}
       >
         <main>{children}</main>
         <footer
           style={{
             marginTop: `2rem`,
+            background: `purple`,
           }}
         >
           © {new Date().getFullYear()}, Built with
